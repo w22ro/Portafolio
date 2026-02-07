@@ -1,4 +1,5 @@
 ﻿import { motion } from 'motion/react';
+import perfil from '../assets/Perfil.png';
 
 export default function SeccionFoto() {
   return (
@@ -71,7 +72,7 @@ export default function SeccionFoto() {
               <div className="relative w-72 h-72 sm:w-96 sm:h-96 overflow-hidden">
                 <div className="absolute inset-0 border border-cyan-400/30 group-hover:border-cyan-400/60 transition-colors duration-500" />
                 <img
-                  src="/src/assets/perfil.png"
+                  src={perfil}
                   alt="Widmen Ronaldo Perales Chiscul"
                   className="w-full h-full object-cover"
                 />
