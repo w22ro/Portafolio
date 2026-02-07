@@ -3,9 +3,10 @@ import react from '@vitejs/plugin-react-swc';
 
 export default defineConfig({
   plugins: [react()],
+  base: '/Portafolio/',
   build: {
     target: 'esnext',
-    outDir: 'build',
+    outDir: 'dist',
     minify: 'esbuild'
   },
   server: {
