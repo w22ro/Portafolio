@@ -26,7 +26,7 @@ export default function SeccionFoto() {
             className="mb-12"
           >
             <span className="font-mono text-cyan-400 text-xs tracking-[0.3em]">
-              [ IDENTIFICACIÃ“N_DE_USUARIO ]
+              [ IDENTIFICACION_DE_USUARIO ]
             </span>
           </motion.div>
           
